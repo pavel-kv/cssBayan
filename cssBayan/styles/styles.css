@@ -6,7 +6,7 @@ body {
 }
 
 .accordion {
-	width: 80vw;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -34,28 +34,98 @@ body {
 .meme__label {
 	display: flex;
 	justify-content: space-between;
-	padding: 0.8rem 0;
+	padding: 1rem 0;
 }
 
 .meme__title {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-weight: 800;
 	color: #0055d4;
 }
 
 .meme__icon {
 	/* visibility: hidden; */
-	width: 1rem;
+	width: 0.8rem;
 	transition: transform 0.2s ease;
 }
 
 .meme__box {
-	width: 70%;
+	display: block;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .meme__picture {
 	width: 100%;
 	margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+	.accordion {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.accordion__title {
+		font-size: 1.5rem;
+	}
+
+	.meme__title {
+		font-size: 1rem;
+	}
+	
+	.meme__icon {
+		width: 1rem;
+	}
+
+	.meme__box {
+		width: 70%;
+	}
+}
+
+@media (min-width: 820px) {
+	.accordion {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.accordion__title {
+		font-size: 1.8rem;
+	}
+
+	.meme__title {
+		font-size: 1.2rem;
+	}
+	
+	.meme__icon {
+		width: 1.2rem;
+	}
+
+	.meme__box {
+		width: 50%;
+	}
+}
+
+@media (min-width: 1920px) {
+	.accordion {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.accordion__title {
+		font-size: 2.5rem;
+	}
+
+	.meme__title {
+		font-size: 1.5rem;
+	}
+	
+	.meme__icon {
+		width: 1.5rem;
+	}
+
+	.meme__box {
+		width: 60%;
+	}
 }
