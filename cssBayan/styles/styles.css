@@ -1,0 +1,57 @@
+body {
+	min-height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	background-color: #f1e4d3;
+}
+
+.accordeon {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.accordeon__title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 800;
+	color: #111111;
+}
+
+.accordeon__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.accordeon__item {
+	border-top: 1px solid #c2c2c2;
+}
+
+.meme__header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+
+.meme__title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: 800;
+	color: #0055d4;
+}
+
+.meme__icon {
+	visibility: hidden;
+	width: 1rem;
+	transition: transform 0.2s ease;
+}
+
+.meme__box {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.meme__picture {
+	width: 100%;
+	margin: 0 auto;
+}
