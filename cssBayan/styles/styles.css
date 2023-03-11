@@ -32,10 +32,6 @@ body {
 	filter: opacity(0.8);
 }
 
-.meme:active .meme__label .meme__icon {
-	color: #0055d4;
-}
-
 .meme__radio {
 	display: none;
 }
@@ -110,13 +106,13 @@ body {
 	}
 
 	.meme__picture {
-		width: 70%;
+		width: 80%;
 	}
 }
 
 @media (min-width: 820px) {
 	.accordion {
-		width: 50%;
+		width: 60%;
 		margin: 0 auto;
 	}
 
@@ -139,7 +135,7 @@ body {
 
 @media (min-width: 1920px) {
 	.accordion {
-		width: 40%;
+		width: 50%;
 		margin: 0 auto;
 	}
 
